@@ -18,7 +18,7 @@ public class Giocatore {
         this.nome = nome;
         this.cognome = cognome;
         this.forza = forza;
-    }
+    } 
 
     public int getForza() {
         return forza;
