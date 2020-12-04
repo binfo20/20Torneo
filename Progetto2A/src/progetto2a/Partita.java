@@ -4,19 +4,12 @@
  * and open the template in the editor.
  */
 package progetto2a;
-import java.util.Random;
+
 /**
  *
  * @author Tommy
  */
-public class CreazioneCoppia{
-
-    
-    public static String CreaCoppia(Giocatore g){
-   
-        
-    }
-    
-    
+public class Partita {
+    String coppia;
     
 }

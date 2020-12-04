@@ -13,9 +13,16 @@ public class TabelloneGioco {
    String giocatore[] ;
     String coppia ;
 
+    
+    
     public TabelloneGioco(String[] giocatore, String coppia) {
         this.giocatore = giocatore;
         this.coppia = coppia;
     }
+
     
+    public String getCoppia() {
+       
+        return coppia;
+    }  
 }
