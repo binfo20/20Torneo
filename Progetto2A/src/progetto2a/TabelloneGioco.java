@@ -4,19 +4,18 @@
  * and open the template in the editor.
  */
 package progetto2a;
-import java.util.Random;
+
 /**
  *
  * @author Tommy
  */
-public class CreazioneCoppia{
+public class TabelloneGioco {
+   String giocatore[] ;
+    String coppia ;
 
-    
-    public class void CreaCoppia(){
-   
-        
+    public TabelloneGioco(String[] giocatore, String coppia) {
+        this.giocatore = giocatore;
+        this.coppia = coppia;
     }
-    
-    
     
 }
