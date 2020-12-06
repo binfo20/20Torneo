@@ -14,11 +14,6 @@ public class Giocatore {
     String cognome;
     int forza;
 
-    public Giocatore(String nome, String cognome, int forza) {
-        this.nome = nome;
-        this.cognome = cognome;
-        this.forza = forza;
-    } 
 
     public int getForza() {
         return forza;
@@ -31,17 +26,23 @@ public class Giocatore {
     public String getCognome() {
         return cognome;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCognome(String cognome) {
+        this.cognome = cognome;
+    }
+
+    public void setForza(int forza) {
+        this.forza = forza;
+    }
+    
  public boolean TestaDiSerie(int forza){    //se un giocatore ha la forza >= di 10 è testa di serie
      if(forza>=10){
          return true;
      }else return false;
  }
     
-    
-    @Override
-    public String toString() {
-        return "Giocatore{" + "nome=" + nome + ", cognome=" + cognome + ", forza=" + forza + '}';
-    }
-    
-
 }
