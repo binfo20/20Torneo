@@ -25,8 +25,8 @@ public class Progetto2A {
          
   System.out.println("quanti giocatori partecipano al torneo ?");
      n=(in.nextInt()) ;
-     for(int m=0; m<n; m++){
-        gioc=new Giocatore[n];
+     for(int m=0; m<=n; m++){
+        gioc[n]=new Giocatore();
        System.out.println("inserisci nome:");
       gioc[n].setNome(in.next());
       System.out.println("inserisci cognome:");

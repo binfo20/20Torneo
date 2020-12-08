@@ -12,7 +12,8 @@ import java.util.Random;
 public class CreazioneCoppia{
 
     
-    public static String CreaCoppia(Giocatore g){
+    public static String CreaCoppia(Giocatore[n]){
+      
    
         
     }

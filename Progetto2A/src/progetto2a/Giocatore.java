@@ -29,7 +29,7 @@ public class Giocatore {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
+    } 
 
     public void setCognome(String cognome) {
         this.cognome = cognome;
