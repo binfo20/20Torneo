@@ -23,7 +23,7 @@ public class Progetto2A {
          int n=0;
          Giocatore gioc[];
          
-   System.out.println("quanti giocatori partecipano al torneo?");
+   System.out.println(" quanti giocatori partecipano al torneo?");
      n=(in.nextInt()) ;
        for(int m=0; m<=n; m++){
         gioc[n]=new Giocatore();
