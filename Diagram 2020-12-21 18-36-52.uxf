@@ -1,0 +1,48 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>150</x><y>230</y><w>300</w><h>130</h></coordinates><panel_attributes>Giocatore
+--
+-nome: String
+-cognome: String
+-isTestaSerie: bool
+--
++Giocatore(String nome, cognome, bool isTestaSerie)
+--
+Responsabilities
+Usato da TabelloneGioco</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>440</y><w>220</w><h>120</h></coordinates><panel_attributes>CreazioneCoppia
+--
+-Giocatore: Giocatore
+--
++creaCoppia(Giocatore): void
+--
+Responsabilities
+Genera una coppia randomica tenendo
+conto dlle teste di serie</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>230</y><w>220</w><h>250</h></coordinates><panel_attributes>TabelloneGioco
+--
+-giocatori&lt;&gt;: Giocatore
+--
++TabelloneGioco(Giocatore giocatori&lt;&gt;)
++Aggiornamento(): void
+--
+Responsabilities
+crea e aggiorna il tabellone
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>540</y><w>240</w><h>160</h></coordinates><panel_attributes>Partita
+--
+-coppia: Giocatore
+-punteggio1: int
+-punteggio2: int
+-punteggioVincitore: int
+--
++confronto(punteggio1, punteggio2): String
+--
+Responsabilities
+rilascia automaticamente il vincitore</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>442</x><y>280</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>242</x><y>350</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>450</y><w>240</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>540</y><w>240</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>470</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>560</y><w>210</w><h>120</h></coordinates><panel_attributes>ElencoPartite
+--
+partite&lt;&gt;: Partita
+punteggioVincitore: int
+--
+toString(): String
+--
+Responsabilities
+Salva punteggio e stampa l'elenco</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>600</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>910</x><y>220</y><w>210</w><h>110</h></coordinates><panel_attributes>Main
+--
+Responsabilities
+gestisce input e output</panel_attributes><additional_attributes></additional_attributes></element></diagram>
