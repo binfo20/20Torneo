@@ -18,6 +18,7 @@
          </font>
       </Label>
       <TextField fx:id="cognome" layoutX="103.0" layoutY="162.0" prefHeight="25.0" prefWidth="198.0" promptText="Rossi" />
-      <Button layoutX="508.0" layoutY="361.0" mnemonicParsing="false" text="Torneo" />
+      <Button fx:id="torneo" layoutX="508.0" layoutY="361.0" mnemonicParsing="false" onAction="#CambiaScena2" text="Torneo" />
+      <Button fx:id="invio" layoutX="103.0" layoutY="222.0" mnemonicParsing="false" onAction="#InvioDati" prefHeight="25.0" prefWidth="54.0" text="Invio" />
    </children>
 </AnchorPane>

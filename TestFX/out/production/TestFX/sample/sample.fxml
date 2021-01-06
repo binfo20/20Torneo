@@ -5,16 +5,16 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
 
-<AnchorPane fx:id="Anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="1071.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="Anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="1071.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <ChoiceBox fx:id="partecipante1" layoutX="76.0" layoutY="24.0" prefWidth="150.0" />
-      <ChoiceBox fx:id="partecipante2" layoutX="76.0" layoutY="126.0" prefWidth="150.0" />
-      <ChoiceBox fx:id="partecipante3" layoutX="76.0" layoutY="164.0" prefWidth="150.0" />
-      <ChoiceBox fx:id="partecipante4" layoutX="76.0" layoutY="267.0" prefWidth="150.0" />
-      <ChoiceBox fx:id="partecipante5" layoutX="76.0" layoutY="318.0" prefWidth="150.0" />
-      <ChoiceBox fx:id="partecipante6" layoutX="75.0" layoutY="413.0" prefWidth="150.0" />
-      <ChoiceBox fx:id="partecipante7" layoutX="76.0" layoutY="463.0" prefWidth="150.0" />
-      <ChoiceBox fx:id="partecipante8" layoutX="75.0" layoutY="554.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante1" layoutX="76.0" layoutY="24.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante2" layoutX="76.0" layoutY="126.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante3" layoutX="76.0" layoutY="164.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante4" layoutX="76.0" layoutY="267.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante5" layoutX="76.0" layoutY="318.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante6" layoutX="75.0" layoutY="413.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante7" layoutX="76.0" layoutY="463.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante8" layoutX="75.0" layoutY="554.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
       <Button fx:id="match1" layoutX="125.0" layoutY="78.0" mnemonicParsing="false" text="Match" />
       <Button fx:id="match2" layoutX="125.0" layoutY="219.0" mnemonicParsing="false" text="Match" />
       <Button fx:id="match3" layoutX="125.0" layoutY="365.0" mnemonicParsing="false" text="Match" />
@@ -69,6 +69,6 @@
       <TextField fx:id="pt12" alignment="CENTER" layoutX="440.0" layoutY="509.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
       <TextField fx:id="pt13" alignment="CENTER" layoutX="733.0" layoutY="151.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
       <TextField fx:id="pt14" alignment="CENTER" layoutX="733.0" layoutY="439.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
-      <Button layoutX="903.0" layoutY="579.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="131.0" text="Inserisci partecipanti" />
+      <Button fx:id="buttonpartecipanti" layoutX="903.0" layoutY="579.0" mnemonicParsing="false" onAction="#CambiaScena" prefHeight="31.0" prefWidth="131.0" text="Inserisci partecipanti" />
    </children>
 </AnchorPane>
