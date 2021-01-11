@@ -1,27 +1,26 @@
+/*
 package sample;
+
+import javafx.scene.control.TextField;
 
 public class Giocatore {
 
 
-        private String nome;
-        private String cognome;
+       // private TextField nome;
+        private TextField cognome;
         private int id;
 
-        public String getNome() {
-            return nome;
-        }
-        public void setNome(String nome) {
-            this.nome = nome;
-        }
-        public String getCognome() {
-            return cognome;
-        }
-        public void setCognome(String cognome) {
+
+       // public void setNome(TextField nome) {
+     //       this.nome = nome;
+      //  }
+
+        public void setCognome(TextField cognome) {
             this.cognome = cognome;
         }
 
         public String toString() {
-            return "Nome: " + nome +"\n" +
+            return "Nome: " + //nome +"\n" +
                     "Cognome: " + cognome + "\n" +
                     "ID: " + id + "\n";
         }
@@ -34,3 +33,4 @@ public class Giocatore {
 
 }
 
+*/
