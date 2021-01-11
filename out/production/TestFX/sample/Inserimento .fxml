@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Inserimento">
+   <children>
+      <Label fx:id="labelnome" contentDisplay="CENTER" layoutX="103.0" layoutY="35.0" prefHeight="44.0" prefWidth="198.0" text="Insericsi Nome" textAlignment="CENTER">
+         <font>
+            <Font name="Century Schoolbook" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nome" layoutX="103.0" layoutY="79.0" prefHeight="25.0" prefWidth="198.0" promptText="Mario" />
+      <Label fx:id="labelcognome" contentDisplay="CENTER" layoutX="103.0" layoutY="118.0" prefHeight="44.0" prefWidth="198.0" text="Inserisci Cognome" textAlignment="CENTER">
+         <font>
+            <Font name="Century Schoolbook" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cognome" layoutX="103.0" layoutY="162.0" prefHeight="25.0" prefWidth="198.0" promptText="Rossi" />
+      <Button fx:id="torneo" layoutX="508.0" layoutY="361.0" mnemonicParsing="false" onAction="#CambiaScena2" text="Torneo" />
+      <Button fx:id="invio" layoutX="103.0" layoutY="222.0" mnemonicParsing="false" onAction="#InvioDati" prefHeight="25.0" prefWidth="54.0" text="Invio" />
+   </children>
+</AnchorPane>

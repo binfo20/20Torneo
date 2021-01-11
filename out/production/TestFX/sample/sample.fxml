@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="Anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="1071.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ChoiceBox fx:id="partecipante1" layoutX="76.0" layoutY="24.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante2" layoutX="76.0" layoutY="126.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante3" layoutX="76.0" layoutY="164.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante4" layoutX="76.0" layoutY="267.0" onMouseClicked="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante5" layoutX="76.0" layoutY="318.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante6" layoutX="75.0" layoutY="413.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante7" layoutX="76.0" layoutY="463.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
+      <ChoiceBox fx:id="partecipante8" layoutX="75.0" layoutY="554.0" onContextMenuRequested="#RiceviDati" prefWidth="150.0" />
+      <Button fx:id="match1" layoutX="125.0" layoutY="78.0" mnemonicParsing="false" text="Match" />
+      <Button fx:id="match2" layoutX="125.0" layoutY="219.0" mnemonicParsing="false" text="Match" />
+      <Button fx:id="match3" layoutX="125.0" layoutY="365.0" mnemonicParsing="false" text="Match" />
+      <Button fx:id="match4" layoutX="125.0" layoutY="508.0" mnemonicParsing="false" text="Match" />
+      <Label fx:id="label1" alignment="CENTER" layoutX="282.0" layoutY="78.0" prefHeight="25.0" prefWidth="150.0" style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" textAlignment="CENTER" />
+      <Label fx:id="label2" alignment="CENTER" layoutX="282.0" layoutY="219.0" prefHeight="25.0" prefWidth="150.0" style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" textAlignment="CENTER" />
+      <Label fx:id="label3" alignment="CENTER" layoutX="282.0" layoutY="365.0" prefHeight="25.0" prefWidth="150.0" style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" textAlignment="CENTER" />
+      <Label fx:id="label4" alignment="CENTER" layoutX="282.0" layoutY="508.0" prefHeight="25.0" prefWidth="150.0" style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" textAlignment="CENTER" />
+      <Button fx:id="match5" layoutX="331.0" layoutY="151.0" mnemonicParsing="false" text="Match" />
+      <Button fx:id="match6" layoutX="331.0" layoutY="438.0" mnemonicParsing="false" text="Match" />
+      <Label fx:id="label5" alignment="CENTER" layoutX="576.0" layoutY="151.0" prefHeight="25.0" prefWidth="150.0" style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" textAlignment="CENTER" />
+      <Label fx:id="label6" alignment="CENTER" layoutX="576.0" layoutY="438.0" prefHeight="25.0" prefWidth="150.0" style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" textAlignment="CENTER" />
+      <Button fx:id="match7" layoutX="625.0" layoutY="292.0" mnemonicParsing="false" text="Match" />
+      <Label fx:id="label7" alignment="CENTER" layoutX="827.0" layoutY="279.0" prefHeight="51.0" prefWidth="189.0" style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" textAlignment="CENTER" />
+      <Line endX="-88.0" endY="-33.5" layoutX="370.0" layoutY="124.0" startX="-195.0" startY="-33.5" />
+      <Line endX="-118.0" endY="-60.5" layoutX="400.0" layoutY="292.0" startX="-225.0" startY="-60.5" />
+      <Line endX="-89.0" endY="-32.5" layoutX="371.0" layoutY="410.0" startX="-196.0" startY="-32.5" />
+      <Line endX="-99.0" endY="-58.5" layoutX="381.0" layoutY="579.0" startX="-206.0" startY="-58.5" />
+      <Line endX="-550.0" endY="-54.0" layoutX="700.0" layoutY="103.0" startX="-550.0" startY="-25.0" />
+      <Line endX="-83.0" endY="-12.0" layoutX="233.0" layoutY="115.0" startX="-83.0" startY="11.0" />
+      <Line endX="-42.0" endY="-16.0" layoutX="192.0" layoutY="205.0" startX="-42.0" startY="14.0" />
+      <Line endX="-269.0" endY="-36.0" layoutX="419.0" layoutY="280.0" startX="-269.0" startY="-13.0" />
+      <Line endX="-251.0" endY="13.0" layoutX="401.0" layoutY="330.0" startX="-251.0" startY="35.0" />
+      <Line endX="14.0" endY="-12.0" layoutX="136.0" layoutY="402.0" startX="14.0" startY="11.0" />
+      <Line endX="-500.0" endY="-46.0" layoutX="651.0" layoutY="554.0" startX="-500.0" startY="-66.0" />
+      <Line endX="-325.0" endY="-58.0" layoutX="475.0" layoutY="591.0" startX="-325.0" startY="-37.0" />
+      <Line endX="-57.0" endY="-27.0" layoutX="413.0" layoutY="203.0" startX="-57.0" startY="16.0" />
+      <Line endX="-46.0" endY="-24.0" layoutX="402.0" layoutY="127.0" startX="-46.0" startY="24.0" />
+      <Line endY="-55.5" layoutX="576.0" layoutY="219.0" startX="-195.0" startY="-55.5" />
+      <Line endX="-116.0" endY="-93.5" layoutX="692.0" layoutY="544.0" startX="-311.0" startY="-93.5" />
+      <Line endX="-294.0" endY="-12.0" layoutX="650.0" layoutY="402.0" startX="-294.0" startY="36.0" />
+      <Line endX="-334.0" endY="-81.0" layoutX="690.0" layoutY="544.0" startX="-334.0" startY="-36.0" />
+      <Line endX="-1.0" endY="-73.0" layoutX="651.0" layoutY="390.0" startX="-1.0" startY="48.0" />
+      <Line endX="-9.0" endY="-55.0" layoutX="659.0" layoutY="231.0" startX="-9.0" startY="61.0" />
+      <Line endX="-101.0" endY="-97.5" layoutX="928.0" layoutY="402.0" startX="-253.0" startY="-97.5" />
+      <ImageView fx:id="coppa" cache="true" fitHeight="150.0" fitWidth="200.0" layoutX="847.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../immaginiFX/download.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="pt1" alignment="CENTER" layoutX="229.0" layoutY="24.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt2" alignment="CENTER" layoutX="229.0" layoutY="126.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt4" alignment="CENTER" layoutX="229.0" layoutY="267.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt6" alignment="CENTER" layoutX="229.0" layoutY="413.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt8" alignment="CENTER" layoutX="229.0" layoutY="554.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt3" alignment="CENTER" layoutX="229.0" layoutY="164.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt5" alignment="CENTER" layoutX="229.0" layoutY="318.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt7" alignment="CENTER" layoutX="229.0" layoutY="463.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt9" alignment="CENTER" layoutX="440.0" layoutY="79.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt10" alignment="CENTER" layoutX="440.0" layoutY="220.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt11" alignment="CENTER" layoutX="440.0" layoutY="366.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt12" alignment="CENTER" layoutX="440.0" layoutY="509.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt13" alignment="CENTER" layoutX="733.0" layoutY="151.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <TextField fx:id="pt14" alignment="CENTER" layoutX="733.0" layoutY="439.0" prefHeight="25.0" prefWidth="50.0" promptText="points" />
+      <Button fx:id="buttonpartecipanti" layoutX="903.0" layoutY="579.0" mnemonicParsing="false" onAction="#CambiaScena" prefHeight="31.0" prefWidth="131.0" text="Inserisci partecipanti" />
+   </children>
+</AnchorPane>
